@@ -43,7 +43,7 @@ void place(char *str)
 {
 	while (*str != '\0')
 	{
-		charput(*str)
+		charput(*str);
 		str++;
 	}
 }
